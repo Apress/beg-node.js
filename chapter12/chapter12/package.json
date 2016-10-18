@@ -1,0 +1,16 @@
+{
+  "name": "chapter12",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "q": "^1.0.1",
+    "chai": "^1.9.1",
+    "chai-datetime": "^1.3.0"
+  }
+}

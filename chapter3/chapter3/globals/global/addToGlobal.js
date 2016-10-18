@@ -1,0 +1,1 @@
+global.something = 123;

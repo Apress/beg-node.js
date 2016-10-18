@@ -1,0 +1,6 @@
+{
+  "name": "chapter6",
+  "dependencies": {
+    "connect": "^3.0.0-rc.2"
+  }
+}

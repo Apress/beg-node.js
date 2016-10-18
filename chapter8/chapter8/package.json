@@ -1,0 +1,10 @@
+{
+  "name": "Demo",
+  "dependencies": {
+    "express": "^4.4.4",
+    "mongodb": "^1.4.6",
+    "mongoose": "^3.8.12",
+    "express-session": "^1.5.1",
+    "connect-mongo": "^0.4.1"
+  }
+}

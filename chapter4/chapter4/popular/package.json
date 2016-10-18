@@ -1,0 +1,9 @@
+{
+  "name": "demo",
+  "dependencies": {
+    "optimist": "0.6.1",
+    "underscore": "1.6.0",
+    "moment": "2.6.0",
+    "colors": "^0.6.2"
+  }
+}

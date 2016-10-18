@@ -1,0 +1,11 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "author": "basarat",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.4.5",
+    "body-parser": "^1.4.3",
+    "mongodb": "^1.4.7"
+  }
+}

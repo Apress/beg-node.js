@@ -1,0 +1,33 @@
+<html ng-app="demo">
+<head>
+    <title>Sample App</title>
+
+    <!-- Add JQuery + Bootstrap JS / CSS + AngularJS-->
+    <script src="./vendor/jquery/jquery.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.css">
+    <script src="./vendor/angular/angular.js"></script>
+    <script src="./vendor/angular/angular-route.js"></script>
+
+    <!-- Our Script -->
+    <script>
+        var demoApp = angular.module('demo', []);
+        demoApp.controller('MainController', ['$scope', function ($scope) {
+            $scope.vm = {
+                name: "foo",
+                clearName: function () {
+                    this.name = ""
+                }
+            };
+        }]);
+    </script>
+
+</head>
+<body ng-controller="MainController">
+    <!-- Our HTML -->
+    <label>Type your name:</label>
+    <input type="text" ng-model="vm.name" />
+    <div>Hello {{vm.name}}!</div>
+    <button class="btn btn-danger" ng-click="vm.clearName()">Clear Name</button>
+</body>
+</html>
