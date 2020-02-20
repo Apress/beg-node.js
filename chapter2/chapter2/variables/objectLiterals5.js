@@ -12,4 +12,4 @@ var foo = {
 };
 console.log(foo.bar); // 123
 console.log(foo.bas[0].qux); // 1
-console.log(foo.bas[2].qux); // 2
+console.log(foo.bas[2].qux); // 3
